@@ -13,4 +13,5 @@ This repository contains the second project from the Unity Pathway "Junior Progr
 * Keycodes for input
 * Debugging with logs
 * Object creation with the method Instantiate
-* 
+* Object destruction with Destroy method
+* Overriding prefabs from the inspector window
