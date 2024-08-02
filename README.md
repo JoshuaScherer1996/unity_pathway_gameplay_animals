@@ -11,3 +11,4 @@ This repository contains the second project from the Unity Pathway "Junior Progr
 * Introduction to if statements
 * Prefabs
 * Keycodes for input
+* Debugging with logs

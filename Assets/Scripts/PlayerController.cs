@@ -21,6 +21,11 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("Space pressed");
+        }
         
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * (Time.deltaTime * speed * horizontalInput));
