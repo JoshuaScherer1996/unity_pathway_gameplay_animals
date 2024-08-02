@@ -17,3 +17,5 @@ This repository contains the second project from the Unity Pathway "Junior Progr
 * Overriding prefabs from the inspector window
 * Array's
 * Object creation with the Instantiate method
+* Randomisation with Random.Range
+* Switching between perspective and orthographic  
