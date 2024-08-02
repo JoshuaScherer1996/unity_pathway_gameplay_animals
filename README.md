@@ -8,4 +8,5 @@ This repository contains the second project from the Unity Pathway "Junior Progr
 * Scale property
 * Scale tool
 * Changing Materials of objects
+* Introduction to if branches
 * 
