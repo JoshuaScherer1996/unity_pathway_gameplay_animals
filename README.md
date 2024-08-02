@@ -3,4 +3,9 @@
 This repository contains the second project from the Unity Pathway "Junior Programmer". The goal is to understand and implement the concept of basic gameplay.
 
 ## Topics covered
-* TBD
+* Switching perspectives by clicking on the Axis
+* Adjusting the editor layout
+* Scale property
+* Scale tool
+* Changing Materials of objects
+* 
