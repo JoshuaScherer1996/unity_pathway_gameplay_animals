@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     public float speed = 20.0f;
     public float xRange = 14.0f;
 
+    public GameObject projectilePrefab;
+
     // Update is called once per frame
     private void Update()
     {
