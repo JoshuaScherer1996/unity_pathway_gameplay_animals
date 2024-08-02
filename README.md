@@ -12,3 +12,5 @@ This repository contains the second project from the Unity Pathway "Junior Progr
 * Prefabs
 * Keycodes for input
 * Debugging with logs
+* Object creation with the method Instantiate
+* 

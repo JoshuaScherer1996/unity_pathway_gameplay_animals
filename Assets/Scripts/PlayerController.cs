@@ -4,7 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     // Instantiating and Declaring variables.
     public float horizontalInput;
-    public float speed = 20.0f;
+    public float speed = 40.0f;
     public float xRange = 14.0f;
 
     public GameObject projectilePrefab;
@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("Space pressed");
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
         
         horizontalInput = Input.GetAxis("Horizontal");
