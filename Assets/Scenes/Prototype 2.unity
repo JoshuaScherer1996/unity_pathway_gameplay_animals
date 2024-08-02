@@ -537,10 +537,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1307920eb2914e93a08c86772f5bd6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animals:
+  animalPrefabs:
   - {fileID: 646559168470449066, guid: 697072e30bf2c401992991b8ea2c2ae0, type: 3}
-  - {fileID: 1058663438875598944, guid: ebe313bd3f05c43ea9e10229ede26219, type: 3}
   - {fileID: 660661875319483420, guid: 4cee8e7a5b06247b5b1bee510a0ff288, type: 3}
+  - {fileID: 1058663438875598944, guid: ebe313bd3f05c43ea9e10229ede26219, type: 3}
+  animalIndex: 0
 --- !u!4 &1510296683
 Transform:
   m_ObjectHideFlags: 0

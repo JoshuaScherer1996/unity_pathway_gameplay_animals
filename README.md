@@ -16,3 +16,4 @@ This repository contains the second project from the Unity Pathway "Junior Progr
 * Object destruction with Destroy method
 * Overriding prefabs from the inspector window
 * Array's
+* Object creation with the Instantiate method
