@@ -9,4 +9,4 @@ This repository contains the second project from the Unity Pathway "Junior Progr
 * Scale tool
 * Changing Materials of objects
 * Introduction to if statements
-* 
+* Prefabs
