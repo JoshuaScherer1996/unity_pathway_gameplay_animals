@@ -20,4 +20,5 @@ This repository contains the second project from the Unity Pathway "Junior Progr
 * Randomisation with Random.Range
 * Switching between perspective and orthographic 
 * Writing custom Methods 
+* InvokeRepeating method to repeat calling a method
 *  
