@@ -21,4 +21,9 @@ This repository contains the second project from the Unity Pathway "Junior Progr
 * Switching between perspective and orthographic 
 * Writing custom Methods 
 * InvokeRepeating method to repeat calling a method
-*  
+* Box Collider
+* Edit collider button
+* Prefab preview mode
+* Auto save function in prefab preview mode
+* Is trigger in combination with rigid body for collision detection 
+* 
