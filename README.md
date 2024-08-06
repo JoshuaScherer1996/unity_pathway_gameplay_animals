@@ -26,4 +26,4 @@ This repository contains the second project from the Unity Pathway "Junior Progr
 * Prefab preview mode
 * Auto save function in prefab preview mode
 * Is trigger in combination with rigid body for collision detection 
-* 
+* Debug.Log 

@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 4567356043482515350}
   - component: {fileID: 9192292257788481511}
   - component: {fileID: 245154708740570464}
+  - component: {fileID: 4023684750422820215}
   m_Layer: 0
   m_Name: Dog_Pug_01
   m_TagString: Untagged
@@ -431,6 +432,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.09093419, y: 0.20894848, z: 0.2412311}
   m_Center: {x: -0.0003022602, y: 0.08462155, z: 0.03160229}
+--- !u!114 &4023684750422820215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058663438875598944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b2b6ef3695047b1995febde5070f32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1080776198492487704
 GameObject:
   m_ObjectHideFlags: 0
