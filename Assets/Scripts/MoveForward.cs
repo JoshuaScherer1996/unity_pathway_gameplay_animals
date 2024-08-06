@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MoveForward : MonoBehaviour
 {
-    // Initializing variables.
+    // Initializing variable.
     public float speed = 20.0f;
     
     // Moves the object forward.
