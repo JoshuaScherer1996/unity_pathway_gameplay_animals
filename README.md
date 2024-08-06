@@ -18,4 +18,6 @@ This repository contains the second project from the Unity Pathway "Junior Progr
 * Array's
 * Object creation with the Instantiate method
 * Randomisation with Random.Range
-* Switching between perspective and orthographic  
+* Switching between perspective and orthographic 
+* Writing custom Methods 
+*  
