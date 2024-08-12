@@ -3,7 +3,7 @@
 This repository contains the second project from the Unity Pathway "Junior Programmer". The goal is to understand and implement the concept of basic gameplay.
 
 ## Branch main
-This is the main branch of this chapter and shows the different topics covered step by step. There are also the [challenge](https://github.com/JoshuaScherer1996/unity_pathway_gameplay_animals/tree/challenge) branch that shows how I completed the given bonus challenge.
+This is the main branch of this chapter and shows the different topics covered step by step. There is also the [challenge](https://github.com/JoshuaScherer1996/unity_pathway_gameplay_animals/tree/challenge) branch that shows how I completed the given bonus challenge.
 
 ## Topics covered
 * Switching perspectives by clicking on the Axis
