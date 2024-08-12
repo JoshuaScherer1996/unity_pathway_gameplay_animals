@@ -5,6 +5,8 @@ public class PlayerController : MonoBehaviour
     // Declaring and Initializing variables.
     public float horizontalInput;
     public float verticalInput;
+    public static int Lives = 3;
+    public static int Score = 0;
     public float speed = 40.0f;
     public float xRange = 14.0f;
     public float zRange = 14.0f;
@@ -46,5 +48,15 @@ public class PlayerController : MonoBehaviour
         verticalInput = Input.GetAxis("Vertical");
         transform.Translate(Vector3.right * (Time.deltaTime * speed * horizontalInput));
         transform.Translate(Vector3.forward * (Time.deltaTime * speed * verticalInput));
+
+        // Manages the Lives and Game Over System.
+        if (Lives == 0)
+        {
+            Debug.Log("You Died! Game Over!");
+        }
+        else if (Lives < 0)
+        {
+            Lives = 0;
+        }
     }
 }

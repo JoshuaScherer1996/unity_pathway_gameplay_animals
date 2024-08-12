@@ -9,24 +9,27 @@ public class DestroyOutOfBounds : MonoBehaviour
 
     private void Update()
     {
-        // Destroys object outside the field bounds.
+        // Destroys objects outside the field bounds. Also decreases Lives and Shows them.
         if (transform.position.z > TopBounds) // Top
         {
             Destroy(gameObject);
         }
         else if (transform.position.z < LowerBounds) // Bottom
         {
-            Debug.Log("Game Over!");
+            PlayerController.Lives -= 1;
             Destroy(gameObject);
+            Debug.Log($"Lives: {PlayerController.Lives }!");
         }
         else if (transform.position.x > SideBounds) // Right
         {
-            Debug.Log("Game Over!");
+            PlayerController.Lives -= 1;
             Destroy(gameObject);
+            Debug.Log($"Lives: {PlayerController.Lives }!");
         } else if (transform.position.x < -SideBounds) // Left
         {
-            Debug.Log("Game Over!");
+            PlayerController.Lives -= 1;
             Destroy(gameObject);
+            Debug.Log($"Lives: {PlayerController.Lives }!");
         }
     }
 }
