@@ -16,20 +16,17 @@ public class DestroyOutOfBounds : MonoBehaviour
         }
         else if (transform.position.z < LowerBounds) // Bottom
         {
-            PlayerController.Lives -= 1;
+            PlayerController.CheckAlive();
             Destroy(gameObject);
-            Debug.Log($"Lives: {PlayerController.Lives }!");
         }
         else if (transform.position.x > SideBounds) // Right
         {
-            PlayerController.Lives -= 1;
+            PlayerController.CheckAlive();
             Destroy(gameObject);
-            Debug.Log($"Lives: {PlayerController.Lives }!");
         } else if (transform.position.x < -SideBounds) // Left
         {
-            PlayerController.Lives -= 1;
+            PlayerController.CheckAlive();
             Destroy(gameObject);
-            Debug.Log($"Lives: {PlayerController.Lives }!");
         }
     }
 }

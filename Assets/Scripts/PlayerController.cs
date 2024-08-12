@@ -11,7 +11,8 @@ public class PlayerController : MonoBehaviour
     public float xRange = 14.0f;
     public float zRange = 14.0f;
     public GameObject projectilePrefab;
-
+    // Flag to track if the player is dead
+    public static bool IsPlayerDead = false;
     
     private void Update()
     {
@@ -48,15 +49,23 @@ public class PlayerController : MonoBehaviour
         verticalInput = Input.GetAxis("Vertical");
         transform.Translate(Vector3.right * (Time.deltaTime * speed * horizontalInput));
         transform.Translate(Vector3.forward * (Time.deltaTime * speed * verticalInput));
+    }
 
-        // Manages the Lives and Game Over System.
-        if (Lives == 0)
+    // Method manages the Lives and Game Over System.
+    public static void CheckAlive()
+    {
+        if (!IsPlayerDead)
         {
-            Debug.Log("You Died! Game Over!");
+            Lives -= 1;
+            Debug.Log($"Lives: {Lives}!");
+            
+            if (Lives <= 0)
+            {
+                Debug.Log("You Died! Game Over!");
+                IsPlayerDead = true;
+                Destroy(GameObject.FindWithTag("Player"));
+            }
         }
-        else if (Lives < 0)
-        {
-            Lives = 0;
-        }
+        
     }
 }
